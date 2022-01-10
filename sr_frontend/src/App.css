@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  background-color: rgba(139, 180, 255, 0.466);
+  text-align: center;
+}
+
+.container > .title {
+  font-size: 2em;
+  font-family: cursive;
+}
+
+.container > .images {
+  width: 100%;
+  margin: 35px 0;
+}
+
+.container > .images > img {
+  background-size: cover;
+  width: 80%;
+}
+
+.container > .images > img.submit-img {
+  margin-bottom: 10px;
+}
+
+.container > .buttons {
+  position: relative;
+}
+
+.container > .buttons > button {
+  color: white;
+  background-color: cornflowerblue;
+  border-color: lightblue;
+  border-radius: 10%;
+}
+/*# sourceMappingURL=App.css.map */
